@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 	
 	if (argc < 2)
 	{
-		printf("There is not enough arguments. Please file path (must be not longer than 128 symbols).");
+		printf("There is not enough arguments. Please insert file path (must be not longer than 128 symbols).");
 		return -1;
 	}
 
@@ -137,7 +137,7 @@ int main(int argc, char *argv[])
 		fclose(decompressed_file_ptr);
 	}
 
-	system("pause");	
+	printf("Compression-decompression cycle done.");
 	return 0;
 }
 
